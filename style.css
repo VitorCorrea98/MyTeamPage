@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/* GENERAL FONT STYLES */
+
 .poppins {
     font-family: "Poppins", sans-serif;
 }
@@ -22,17 +24,12 @@ h1 {
 }
 
 
-.card1, .card2, .card3, .card4, .card5, .card6 {
-    display: flex;
-    padding-right: 30px;
-}
-
-
 body {
     margin: 110px 170px;
     box-sizing: border-box;
 }
 
+/* HEADER START  */
 
 header {
     display: flex;
@@ -55,6 +52,10 @@ header p {
     font-size: 18px;
 }
 
+/* HEADER END  */
+
+
+/* MAIN START  */
 
 img {
     width: 190px;
@@ -68,6 +69,11 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     max-width: 900px;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6 {
+    display: flex;
+    padding-right: 30px;
 }
 
 .card1 .side {
@@ -91,7 +97,6 @@ main {
 
 }
 
-
 .card3 .side {
     font-family: "PT";
     font-weight: 400;
@@ -99,7 +104,6 @@ main {
     writing-mode: vertical-lr;
 
 }
-
 
 .img4 {
     padding-top: 30px;
@@ -140,6 +144,9 @@ main {
 
 }
 
+/* MAIN END  */
+
+/* MEDIA QUERIES */
 
 @media only screen and (max-width:900px) {
 
@@ -147,6 +154,8 @@ main {
         margin: 0;
         padding: 90px 20px;
     }
+    
+    /* HEADER START  */
 
     header {
         display: flex;
@@ -158,6 +167,9 @@ main {
         padding-top: 50px;
     }
 
+    /* HEADER END  */
+
+    /* MAIN START  */
 
     main {
         grid-template-columns: 1fr 1fr;
@@ -203,4 +215,5 @@ main {
         padding-top: 120px;
     }
 
+    /* MAIN END  */
 }
