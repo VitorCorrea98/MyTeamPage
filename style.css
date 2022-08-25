@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-family: "PT Serif";
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 10px;
+}
+
+
+.card1, .card2, .card3, .card4, .card5, .card6 {
+    display: flex;
+    padding-right: 30px;
+}
+
+
+body {
+    margin: 110px 170px;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    justify-content: left;
+}
+
+header div {
+    margin-left: 120px;
+}
+
+header h2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+header p {
+    padding: 10px 0;
+    line-height: 27px;
+    font-size: 18px;
+}
+
+
+img {
+    width: 190px;
+    height: 250px;
+    padding-right: 10px;
+}
+
+main {
+    padding-top: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 900px;
+}
+
+.card1 .side {
+    font-family: "PT";
+    font-weight: 400;
+    font-size: 12px;
+    writing-mode: vertical-lr;
+
+}
+
+.img2 {
+    padding-top: 65px;
+}
+
+.card2 .side {
+    font-family: "PT";
+    font-weight: 400;
+    font-size: 12px;
+    writing-mode: vertical-lr;
+    padding-top: 65px;
+
+}
+
+
+.card3 .side {
+    font-family: "PT";
+    font-weight: 400;
+    font-size: 12px;
+    writing-mode: vertical-lr;
+
+}
+
+
+.img4 {
+    padding-top: 30px;
+}
+
+.card4 .side {
+    font-family: "PT";
+    font-weight: 400;
+    font-size: 12px;
+    writing-mode: vertical-lr;
+    padding-top: 30px;
+
+}
+
+.img5 {
+    padding-top: 89px;
+}
+
+.card5 .side {
+    font-family: "PT";
+    font-weight: 400;
+    font-size: 12px;
+    writing-mode: vertical-lr;
+    padding-top: 89px;
+
+}
+
+.img6 {
+    padding-top: 30px;
+}
+
+.card6 .side {
+    font-family: "PT";
+    font-weight: 400;
+    font-size: 12px;
+    writing-mode: vertical-lr;
+    padding-top: 30px;
+
+}
+
+
+@media only screen and (max-width:900px) {
+
+    body {
+        margin: 0;
+        padding: 90px 20px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header div {
+        margin-left: 0;
+        padding-top: 50px;
+    }
+
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .img2 {
+        padding-top: 60px;
+    }
+
+    .card2 .side {
+        padding-top: 60px;
+    }
+
+    .img3 {
+        padding-top: 50px;
+    }
+
+    .card3 .side {
+        padding-top: 50px;
+    }
+
+    .img4 {
+        padding-top: 95px;
+    }
+
+    .card4 .side {
+        padding-top: 95px;
+    }
+
+    .img5 {
+        padding-top: 70px;
+    }
+
+    .card5 .side {
+        padding-top: 70px;
+    }
+
+    .img6 {
+        padding-top: 120px;
+    }
+
+    .card6 .side {
+        padding-top: 120px;
+    }
+
+}
